@@ -18,16 +18,9 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -44,4 +37,25 @@ h1 {
 
 ul {
   text-align: left;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 4;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header header"
+    "sidebar main main main";
+}
+
+.header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+.sidebar {
+  grid-area: sidebar;
 }

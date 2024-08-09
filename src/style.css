@@ -48,7 +48,7 @@ ul {
     "sidebar main main main";
 }
 
-.header {
+website-header {
   grid-area: header;
 }
 
@@ -56,6 +56,6 @@ main {
   grid-area: main;
 }
 
-.sidebar {
+side-bar {
   grid-area: sidebar;
 }
